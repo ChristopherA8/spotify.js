@@ -3,14 +3,7 @@
   "version": "1.0.0",
   "description": "Spotify API wrapper for Node.js",
   "main": "src/index.js",
-  "types": "./typings/index.d.ts",
-  "files": [
-    "src",
-    "typings"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/chr1sdev/spotify.js.git"
@@ -23,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/chr1sdev/spotify.js/issues"
   },
-  "homepage": "https://github.com/chr1sdev/spotify.js#readme",
-  "devDependencies": {
-    "typescript": "^4.5.4"
-  }
+  "homepage": "https://github.com/chr1sdev/spotify.js#readme"
 }

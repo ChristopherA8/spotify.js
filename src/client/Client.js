@@ -3,11 +3,11 @@
  */
 class Client {
   constructor() {
-    this.test = "test";
+    this.words = "test";
   }
 
   test() {
-    console.log(this.test);
+    console.log(this.words);
   }
 }
 
