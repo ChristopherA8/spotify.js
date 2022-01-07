@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chr1sdev/spotify.js/issues"
   },
-  "homepage": "https://github.com/chr1sdev/spotify.js#readme"
+  "homepage": "https://github.com/chr1sdev/spotify.js#readme",
+  "dependencies": {
+    "node-fetch": "^3.1.0"
+  }
 }

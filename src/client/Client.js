@@ -1,13 +1,9 @@
-/**
- * Client :)
- */
-class Client {
-  constructor() {
-    this.words = "test";
-  }
+const RESTManager = require("../rest/RESTManager");
 
-  test() {
-    console.log(this.words);
+class Client {
+  constructor(token) {
+    this.token = token;
+    this.rest = new RESTManager(this);
   }
 }
 
